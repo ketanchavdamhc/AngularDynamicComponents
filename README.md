@@ -1,3 +1,7 @@
+# Crerated 
+
+This project was generated from http://www.mukeshkumar.net/articles/angular5/dynamic-components-in-angular-with-typescript
+
 # DynamicComponent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
