@@ -1,0 +1,16 @@
+<div class="form-inline" style="margin: 10px;" id="row{{index}}">
+  <b>Skills:</b>
+  <select [(ngModel)]="selectedSkill" class="form-control">
+    <option *ngFor="let item of skills" [value]="item">{{item}}</option>
+  </select>
+
+  <b>Experiences: </b>
+  <input [(ngModel)]="yearsOfExperiences" type="text" class="form-control" style="margin-left:10px; margin-right:10px; width: 60px;">
+
+  <b>Rating: </b>
+  <select [(ngModel)]="selectedRating" class="form-control" style="width:70px;">
+    <option *ngFor="let item of ratings" [value]="item">{{item}}</option>
+  </select>
+
+  <i class="fa fa-times" (click)="removeSkills()"></i>
+</div>
